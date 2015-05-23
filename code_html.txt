@@ -1,0 +1,51 @@
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Page 1</h1>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview">
+			<li><a href="#page2">Page 2</a></li>
+            <li><a href="#page3">Page 3</a></li>
+			<li><a href="#page4">Page 4</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Pied de page</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Page 2</h1>
+	</div>
+	<div data-role="content">	
+		Contenu		
+	</div>
+	<div data-role="footer">
+		<h4>Pied de page</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Page 3</h1>
+	</div>
+	<div data-role="content">	
+		Contenu		
+	</div>
+	<div data-role="footer">
+		<h4>Pied de page</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Page 4</h1>
+	</div>
+	<div data-role="content">	
+		Contenu		
+	</div>
+	<div data-role="footer">
+		<h4>Pied de page</h4>
+	</div>
+</div>

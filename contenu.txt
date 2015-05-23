@@ -1,0 +1,110 @@
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+=============================================
+
+
+----------------------------------------------
+page
+=============================================
+<div data-role="page" id="page">
+  <div data-role="header">
+    <h1>En-tête</h1>
+  </div>
+  <div data-role="content">Contenu</div>
+  <div data-role="footer">
+    <h4>Pied de page</h4>
+  </div>
+</div>
+
+
+
+----------------------------------------------
+Page Index
+=============================================
+
+<ul data-role="listview">
+<li><a href="#page2">Page 2</a></li>
+<li><a href="#page3">Page 3</a></li>
+<li><a href="#page4">Page 4</a></li>
+</ul>		
+
+*****************
+
+<div id="">          
+<h4>Suivez-Nous</h4>
+<a href="#"></a> 
+<a href="#"></a> 
+<a href="#"></a> 
+</div>
+
+
+----------------------------------------------
+Page : Accueil
+==============================================
+
+<h3>Arts-martiaux</h3>
+<img src="">
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<h3>Compétitions</h3>
+<img src="">
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+
+----------------------------------------------
+Page : Arts-martiaux
+==============================================
+
+<ul data-role="listview">
+<li><a href="#">Arts-martiaux chinois</a></li>
+<li><a href="#">Wushu</a></li>
+<li><a href="#">Wing-chun</a></li>
+<li><a href="#">Jet-kune-do</a></li>
+<li><a href="#">Arts-martiaux japonais</a></li>
+<li><a href="#">Aikido</a></li>
+<li><a href="#">Judo</a></li>
+<li><a href="#">Karaté</a></li>
+<li><a href="#">Arts-martiaux coréen</a></li>
+<li><a href="#">Taekwondo</a></li>
+<li><a href="#">Hapkido</a></li>
+</ul>
+
+
+----------------------------------------------
+Page : Evenements
+==============================================
+
+<ul data-role="listview" data-inset="false">
+<li><a href="#">
+<h3>Page</h3>
+<p>Lorem ipsum</p>
+<span class="ui-li-count">1</span></a></li>
+<li><a href="#">
+<h3>Page</h3>
+<p>Lorem ipsum</p>
+<span class="ui-li-count">1</span></a></li>
+<li><a href="#">
+<h3>Page</h3>
+<p>Lorem ipsum</p>
+<span class="ui-li-count">1</span></a></li>
+<li><a href="#">
+<h3>Page</h3>
+<p>Lorem ipsum</p>
+<span class="ui-li-count">1</span></a></li>
+</ul>	
+
+
+----------------------------------------------
+Page : Contact
+==============================================
+
+      <form>
+        <input type="text"  placeholder="Nom"  ><br />
+        <input type="text" placeholder="Prénom"><br />
+		
+        <label for="vemail" >Email :</label>
+        <input type="email" name="vemail" id="vemail" placeholder="Ecrire votre email">
+     
+        <label>Message :</label><br /><br />
+        <textarea name="messages" id="messages"></textarea>
+        
+        <input type="submit" value="Envoyer">
+</form>
